@@ -1,0 +1,15 @@
+{
+  "name": "gitbook-unstated-build-bug",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@gitbook/unstated": "github:srph/unstated#pr-2ship-to-es5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
