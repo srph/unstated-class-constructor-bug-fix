@@ -1,12 +1,10 @@
-## unstated-class-constructor-bug
-A bug I found with `@gitbook/unstated` not working for Parcel.
+## unstated-class-constructor-bug-fix
+A fix I found with `@gitbook/unstated` [not working for Parcel (#1)](https://github.com/GitbookIO/unstated/issues/1).
 
-```
-Uncaught TypeError: Class constructor Container cannot be invoked without 'new'
-```
+See [PR](https://github.com/GitbookIO/unstated/pull/2) for more details.
 
 ### Running
-Run the following, then open up `localhost:1234`. Check the console for errors.
+Run the following, then open up `localhost:1234`. See to it that the console has no errors.
 ```bash
 npm start
 ```
